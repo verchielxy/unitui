@@ -1,94 +1,6 @@
 /*background*/
 .bg-no, .bg-none {background: none;}
 
-/*background color*/
-.bg-white {background-color: #fff;}
-.bg-primary {background-color: #545CA6;}
-.bgh-primary:hover {background-color: #545CA6;}
-.bg-success {background-color: #8ec165;}
-.bgh-success:hover {background-color: #8ec165;}
-.bg-info {background-color: #4cc0c1;}
-.bgh-info:hover {background-color: #4cc0c1;}
-.bg-warning {background-color: #ffc333;}
-.bgh-warning:hover {background-color: #ffc333;}
-.bg-danger {background-color: #fb6b5b;}
-.bgh-danger:hover {background-color: #fb6b5b;}
-.bg-scarlet {background-color: #CC3333;}
-.bgh-scarlet:hover {background-color: #CC3333;}
-.bg-red {background-color: #f16653;}
-.bgh-red:hover {background-color: #f16653;}
-.bg-rose {background-color: #FF0066;}
-.bgh-rose:hover {background-color: #FF0066;}
-.bg-jacinth {background-color: #EE513E;}
-.bgh-jacinth:hover {background-color: #EE513E;}
-.bg-pink {background-color: #FF6699;}
-.bgh-pink:hover {background-color: #FF6699;}
-.bg-orange {background-color: #FF8B24;}
-.bgh-orange:hover {background-color: #FF8B24;}
-.bg-yellow {background-color: #EEEE00;}
-.bgh-yellow:hover {background-color: #EEEE00;}
-.bg-almond {background-color: #f5bd34;}
-.bgh-almond:hover {background-color: #f5bd34;}
-.bg-brown {background-color: #8C471E;}
-.bgh-brown:hover {background-color: #8C471E;}
-.bg-olive {background-color: #3d9970;}
-.bgh-olive:hover {background-color: #3d9970;}
-.bg-viridity {background-color: #34D574;}
-.bgh-viridity:hover {background-color: #34D574;}
-.bg-green {background-color: #4bc57d;}
-.bgh-green:hover {background-color: #4bc57d;}
-.bg-aqua {background-color: #99FF99;}
-.bgh-aqua:hover {background-color: #99FF99;}
-.bg-cyan {background-color: #99FFCC;}
-.bgh-cyan:hover {background-color: #99FFCC;}
-.bg-navy {background-color: #3A4D5C;}
-.bgh-navy:hover {background-color: #3A4D5C;}
-.bg-blue {background-color: #4B96E0;}
-.bgh-blue:hover {background-color: #4B96E0;}
-.bg-indigo {background-color: #418D8C;}
-.bgh-indigo:hover {background-color: #418D8C;}
-.bg-deongaree {background-color: #336699;}
-.bgh-deongaree:hover {background-color: #336699;}
-.bg-ocean {background-color: #66CCCC;}
-.bgh-ocean:hover {background-color: #66CCCC;}
-.bg-azure {background-color: #6ACBEC;}
-.bgh-azure:hover {background-color: #6ACBEC;}
-.bg-salmon {background-color: #F08080;}
-.bgh-salmon:hover {background-color: #F08080;}
-.bg-neon {background-color: #EA5AB2;}
-.bgh-neon:hover {background-color: #EA5AB2;}
-.bg-purple {background-color: #B94EB3;}
-.bgh-purple:hover {background-color: #B94EB3;}
-.bg-lavender {background-color: #9582C6;}
-.bgh-lavender:hover {background-color: #9582C6;}
-.bg-lgray {background-color: #CCCCCC;}
-.bgh-lgray:hover {background-color: #CCCCCC;}
-.bg-gray {background-color: #B3B3B3;}
-.bgh-gray:hover {background-color: #B3B3B3;}
-.bg-dgray {background-color: #666666;}
-.bgh-dgray:hover {background-color: #666666;}
-.bg-dark {background-color: #5a6a7a;}
-.bgh-dark:hover {background-color: #5a6a7a;}
-.bg-iron {background-color: #404040;}
-.bgh-iron:hover {background-color: #404040;}
-.bg-black {background-color: #222222;}
-.bgh-black:hover {background-color: #222222;}
-
-.bg-gray2 {background-color: #c9c9c9;}
-.bg-cus-gray {background-color: #f2f4f8;}
-.bgh-cus-gray:hover {background-color: #f2f4f8;}
-.bg-cus-blue {background-color: #61D0FF;}
-.bgh-cus-blue:hover {background-color: #61D0FF;}
-.bg-cus-dgray {background-color: #c9c9c9;}
-.bgh-cus-dgray:hover {background-color: #c9c9c9;}
-
-.bgh-transition{
-    transition:background-color 0.5s;
-    -moz-transition:background-color 0.5s;
-    -webkit-transition:background-color 0.5s;
-    -o-transition:background-color 0.5s;
-}
-
 /*transparent white & dark bg*/
 .bg-black10 {
     background: rgba(0, 0, 0, 0.1);
@@ -303,4 +215,36 @@
     -moz-opacity: 0.95;
     -webkit-opacity: 0.95;
     opacity: 0.95;
+}
+
+/*filter*/
+.filter1px{
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -ms-filter: blur(1px);    
+    filter: blur(1px);
+}
+.filter2px{
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -ms-filter: blur(2px);    
+    filter: blur(2px);
+}
+.filter3px{
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -ms-filter: blur(3px);    
+    filter: blur(3px);
+}
+.filter4px{
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -ms-filter: blur(4px);    
+    filter: blur(4px);
+}
+.filter5px{
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -ms-filter: blur(5px);    
+    filter: blur(5px);
 }

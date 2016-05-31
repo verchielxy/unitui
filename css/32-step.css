@@ -1,0 +1,72 @@
+ol.step{
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    list-style: none;
+    margin: 0 -15px;
+    padding: 0;
+}
+ol.step li{
+    flex: 1;
+    position: relative;
+    text-align: center;
+    margin:0 12px;
+    padding: 11px 0;
+    background-color: #f2f4f8;
+    border-color: #f2f4f8;
+}
+ol.step li.active{
+    background-color: #66cccc;
+    color:#ffffff;
+    border-color: #66cccc;
+}
+ol.step li a{
+    display: block;
+    color:inherit;
+    margin: -11px 0;
+    padding:11px 0;
+}
+ol.step li:not(.active):hover a{
+    color:#66cccc;
+}
+ol.step li::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 0;
+    width: 0;
+    border-style: solid;
+    border-width: 21px 0 21px 20px;
+    border-left-color: transparent!important;
+    border-top-color: inherit;
+    border-bottom-color: inherit;
+    margin-left: -20px;
+}
+ol.step li:first-child::before{
+    content: "";
+    margin: 0;
+    border:none;
+}
+ol.step li::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    height: 0;
+    width: 0;
+    border-style: solid;
+    border-width: 21px 0 21px 20px;
+    border-left-color: inherit;
+    border-top-color: transparent!important;
+    border-bottom-color: transparent!important;
+    margin-right: -20px;
+}
+ol.step li:last-child::after{
+    content: "";
+    margin: 0;
+    border:none;
+}

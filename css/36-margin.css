@@ -869,7 +869,6 @@
     .mx20em-lg{margin-left: 20em!important;margin-right: 20em!important;}
     .my20em-lg{margin-top: 20em!important;margin-bottom: 20em!important;}
 }
-
 .m0{margin: 0;}
 .mt0{margin-top: 0;}
 .mb0{margin-bottom: 0;}
@@ -877,6 +876,13 @@
 .mr0{margin-right: 0;}
 .mx0{margin-left: 0;margin-right: 0;}
 .my0{margin-top: 0;margin-bottom: 0;}
+.m0f{margin: 0!important;}
+.mt0f{margin-top: 0!important;}
+.mb0f{margin-bottom: 0!important;}
+.ml0f{margin-left: 0!important;}
+.mr0f{margin-right: 0!important;}
+.mx0f{margin-left: 0!important;margin-right: 0!important;}
+.my0f{margin-top: 0!important;margin-bottom: 0!important;}
 .m1px{margin: 1px;}
 .mt1px{margin-top: 1px;}
 .mb1px{margin-bottom: 1px;}

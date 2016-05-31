@@ -16,7 +16,7 @@ body {
     font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #717171;
+    color: #39464E;
     background-color: #fff;
 }
 input, button, select, textarea {
@@ -25,11 +25,11 @@ input, button, select, textarea {
     line-height: inherit;
 }
 a {
-    color: #337ab7;
+    color: #39464E;
     text-decoration: none;
 }
 a:hover, a:focus {
-    color: #23527c;
+    color: #4b96e0;
     outline:none!important;
     -moz-outline:none!important;
 }
@@ -215,37 +215,6 @@ a.text-warning:hover, a.text-warning:focus {
 }
 a.text-danger:hover, a.text-danger:focus {
     color: #843534;
-}
-.bg-primary {
-    color: #fff;
-    background-color: #337ab7;
-}
-a.bg-primary:hover, a.bg-primary:focus {
-    background-color: #286090;
-}
-.bg-success {
-    background-color: #dff0d8;
-}
-a.bg-success:hover, a.bg-success:focus {
-    background-color: #c1e2b3;
-}
-.bg-info {
-    background-color: #d9edf7;
-}
-a.bg-info:hover, a.bg-info:focus {
-    background-color: #afd9ee;
-}
-.bg-warning {
-    background-color: #fcf8e3;
-}
-a.bg-warning:hover, a.bg-warning:focus {
-    background-color: #f7ecb5;
-}
-.bg-danger {
-    background-color: #f2dede;
-}
-a.bg-danger:hover, a.bg-danger:focus {
-    background-color: #e4b9b9;
 }
 .page-header {
     padding-bottom: 9px;

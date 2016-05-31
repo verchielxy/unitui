@@ -1,0 +1,112 @@
+/*font style*/
+.font-normal{font-weight: normal;}
+.font-bold{font-weight: bold;}
+.font-italic{font-style: italic}
+
+.font0, .font0px{font-size: 0;}
+.font1px{font-size: 1px;}
+.font2px{font-size: 2px;}
+.font3px{font-size: 3px;}
+.font4px{font-size: 4px;}
+.font5px{font-size: 5px;}
+.font6px{font-size: 6px;}
+.font7px{font-size: 7px;}
+.font8px{font-size: 8px;}
+.font9px{font-size: 9px;}
+.font10px{font-size: 10px;}
+.font11px{font-size: 11px;}
+.font12px{font-size: 12px;}
+.font13px{font-size: 13px;}
+.font14px{font-size: 14px;}
+.font15px{font-size: 15px;}
+.font16px{font-size: 16px;}
+.font17px{font-size: 17px;}
+.font18px{font-size: 18px;}
+.font19px{font-size: 19px;}
+.font20px{font-size: 20px;}
+
+.font1em{font-size: 1em;}
+.font2em{font-size: 2em;}
+.font3em{font-size: 3em;}
+.font4em{font-size: 4em;}
+.font5em{font-size: 5em;}
+.font6em{font-size: 6em;}
+.font7em{font-size: 7em;}
+.font8em{font-size: 8em;}
+.font9em{font-size: 9em;}
+.font10em{font-size: 10em;}
+.font11em{font-size: 11em;}
+.font12em{font-size: 12em;}
+.font13em{font-size: 13em;}
+.font14em{font-size: 14em;}
+.font15em{font-size: 15em;}
+.font16em{font-size: 16em;}
+.font17em{font-size: 17em;}
+.font18em{font-size: 18em;}
+.font19em{font-size: 19em;}
+.font20em{font-size: 20em;}
+
+.c-none, .c-none a, a.c-none{color: none;}
+.cf-none {color: none!important;}
+
+/*text style*/
+.text-ellipsis{overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap;width:100%;max-width: 100%;}
+
+/*text decoration*/
+.text-no-deco{text-decoration: none;}
+.text-underline{text-decoration: underline;}
+.text-crossed{text-decoration: line-through;}
+.text-wavy{text-decoration: underline;-webkit-text-decoration-style: wavy;-moz-text-decoration-style: wavy;text-decoration-style: wavy;}
+
+/*line height*/
+.lh50{line-height: 50%;}
+.lh60{line-height: 60%;}
+.lh70{line-height: 70%;}
+.lh80{line-height: 80%;}
+.lh90{line-height: 90%;}
+.lh100{line-height: 100%;}
+.lh110{line-height: 110%;}
+.lh120{line-height: 120%;}
+.lh130{line-height: 130%;}
+.lh140{line-height: 140%;}
+.lh150{line-height: 150%;}
+.lh160{line-height: 160%;}
+.lh170{line-height: 170%;}
+.lh180{line-height: 180%;}
+.lh190{line-height: 190%;}
+.lh200{line-height: 200%;}
+.lh210{line-height: 210%;}
+.lh220{line-height: 220%;}
+.lh230{line-height: 230%;}
+.lh240{line-height: 240%;}
+.lh250{line-height: 250%;}
+.lh260{line-height: 260%;}
+.lh270{line-height: 270%;}
+.lh280{line-height: 280%;}
+.lh290{line-height: 290%;}
+.lh300{line-height: 300%;}
+
+/*ts*/
+.ts1{word-spacing: 1px;letter-spacing: 1px;}
+.ts2{word-spacing: 2px;letter-spacing: 2px;}
+.ts3{word-spacing: 3px;letter-spacing: 3px;}
+.ts4{word-spacing: 4px;letter-spacing: 4px;}
+.ts5{word-spacing: 5px;letter-spacing: 5px;}
+.ts6{word-spacing: 6px;letter-spacing: 6px;}
+.ts7{word-spacing: 7px;letter-spacing: 7px;}
+.ts8{word-spacing: 8px;letter-spacing: 8px;}
+.ts9{word-spacing: 9px;letter-spacing: 9px;}
+.ts10{word-spacing: 10px;letter-spacing: 10px;}
+
+/*text-indent*/
+.text-indent1em{text-indent:1em;}
+.text-indent2em{text-indent:2em;}
+.text-indent2em-box h1, .text-indent2em-box h2, .text-indent2em-box h3, .text-indent2em-box h4, .text-indent2em-box p{text-indent:2em;}
+.text-indent3em{text-indent:3em;}
+.text-indent4em{text-indent:4em;}
+.text-indent5em{text-indent:5em;}
+.text-indent6em{text-indent:6em;}
+.text-indent7em{text-indent:7em;}
+.text-indent8em{text-indent:8em;}
+.text-indent9em{text-indent:9em;}
+.text-indent10em{text-indent:10em;}

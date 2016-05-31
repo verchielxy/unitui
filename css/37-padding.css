@@ -878,6 +878,13 @@
 .pr0{padding-right: 0;}
 .px0{padding-left: 0;padding-right: 0;}
 .py0{padding-top: 0;padding-bottom: 0;}
+.p0f{padding: 0!important;}
+.pt0f{padding-top: 0!important;}
+.pb0f{padding-bottom: 0!important;}
+.pl0f{padding-left: 0!important;}
+.pr0f{padding-right: 0!important;}
+.px0f{padding-left: 0!important;padding-right: 0!important;}
+.py0f{padding-top: 0!important;padding-bottom: 0!important;}
 .p1px{padding: 1px;}
 .pt1px{padding-top: 1px;}
 .pb1px{padding-bottom: 1px;}

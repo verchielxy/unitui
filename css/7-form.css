@@ -69,6 +69,11 @@ output {
     -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
+.form-control.rounded{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+}
 .form-control:focus {
     border-color: #4cc0c1;
     outline: 0;
@@ -94,6 +99,9 @@ textarea.form-control {
     height: auto;
     max-width: 100%;
     min-width: 100%;
+}
+select.form-control option{
+    padding:7px 10px;
 }
 input[type="search"] {
     -webkit-appearance: none;
@@ -263,7 +271,7 @@ textarea.input-lg, select[multiple].input-lg {
     height: 30px;
     line-height: 30px;
 }
-.has-success .help-block, .has-success .control-label, .has-success .radio, .has-success .checkbox, .has-success .radio-inline, .has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label {
+.has-success .help-block, .has-success .control-label, .has-success .radio, .has-success .checkbox, .has-success .radio-inline, .has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label , .has-success a{
     color: #468847;
 }
 .has-success .form-control {
@@ -278,13 +286,12 @@ textarea.input-lg, select[multiple].input-lg {
 }
 .has-success .input-group-addon {
     color: #468847;
-    background-color: #dff0d8;
     border-color: #468847;
 }
 .has-success .form-control-feedback {
     color: #468847;
 }
-.has-warning .help-block, .has-warning .control-label, .has-warning .radio, .has-warning .checkbox, .has-warning .radio-inline, .has-warning .checkbox-inline, .has-warning.radio label, .has-warning.checkbox label, .has-warning.radio-inline label, .has-warning.checkbox-inline label {
+.has-warning .help-block, .has-warning .control-label, .has-warning .radio, .has-warning .checkbox, .has-warning .radio-inline, .has-warning .checkbox-inline, .has-warning.radio label, .has-warning.checkbox label, .has-warning.radio-inline label, .has-warning.checkbox-inline label, .has-warning a{
     color: #c09853;
 }
 .has-warning .form-control {
@@ -299,13 +306,12 @@ textarea.input-lg, select[multiple].input-lg {
 }
 .has-warning .input-group-addon {
     color: #c09853;
-    background-color: #fcf8e3;
     border-color: #c09853;
 }
 .has-warning .form-control-feedback {
     color: #c09853;
 }
-.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label, .has-error a{
     color: #b94a48;
 }
 .has-error .form-control {
@@ -320,7 +326,6 @@ textarea.input-lg, select[multiple].input-lg {
 }
 .has-error .input-group-addon {
     color: #b94a48;
-    background-color: #f2dede;
     border-color: #b94a48;
 }
 .has-error .form-control-feedback {
@@ -416,6 +421,26 @@ textarea.input-lg, select[multiple].input-lg {
         padding-top: 6px;
         font-size: 12px;
     }
+}
+
+/*form-table*/
+.form-table .form-group{
+    display: table;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.form-table label.control-label, .form-table div.control-box{
+    display: table-cell;
+    vertical-align: middle;
+}
+.form-table label.control-label{
+    width: 100px;
+    text-align: right;
+    padding-right: 20px;
+}
+.form-table div.control-box{
+    width: auto;
+    text-align: left;
 }
 
 /*radio or checkbox*/

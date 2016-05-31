@@ -1,0 +1,21 @@
+/*align*/
+.align-left , .left {text-align: left;}
+.align-center , .center {text-align: center;}
+.align-right , .right {text-align: right;}
+.align-justify , .justify {text-align: justify;}
+.vertical-top, .top {vertical-align: top;}
+.vertical-middle, .middle {vertical-align: middle;}
+.vertical-bottom, .bottom {vertical-align: bottom;}
+.block-center{display: block; margin-left: auto; margin-right: auto;}
+@media (min-width: 768px) {
+    .align-left-sm , .left-sm {text-align: left;}
+    .align-right-sm , .right-sm {text-align: right;}
+}
+@media (min-width: 992px) {
+    .align-left-md , .left-md {text-align: left;}
+    .align-right-md , .right-md {text-align: right;}
+}
+@media (min-width: 1200px) {
+    .align-left-lg , .left-lg {text-align: left;}
+    .align-right-lg , .right-lg {text-align: right;}
+}

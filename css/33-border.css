@@ -1,0 +1,96 @@
+.bd-no , .bd-none , .bd-0 {border: none!important;}
+.bd-top-no , .bd-top-none , .bd-top-0 {border-top: none!important;}
+.bd-right-no , .bd-right-none , .bd-right-0 {border-right: none!important;}
+.bd-bottom-no , .bd-bottom-none , .bd-bottom-0 {border-bottom: none!important;}
+.bd-left-no , .bd-left-none , .bd-left-0 {border-left: none!important;}
+/*border*/
+.bd-solid {border-style: solid;}
+.bd-dotted {border-style: dotted;}
+.bd-top {border-top-style: solid;}
+.bd-bottom {border-bottom-style: solid;}
+.bd-left {border-left-style: solid;}
+.bd-right {border-right-style: solid;}
+.bd-top-dotted {border-top-style: dotted;}
+.bd-bottom-dotted {border-bottom-style: dotted;}
+.bd-left-dotted {border-left-style: dotted;}
+.bd-right-dotted {border-right-style: dotted;}
+.bd {border:solid 1px #eeeeee;}
+
+.bd1px {border-width: 1px;}
+.bd2px {border-width: 2px;}
+.bd3px {border-width: 3px;}
+.bd4px {border-width: 4px;}
+.bd5px {border-width: 5px;}
+.bd6px {border-width: 6px;}
+.bd7px {border-width: 7px;}
+.bd8px {border-width: 8px;}
+.bd9px {border-width: 9px;}
+.bd10px {border-width: 10px;}
+.bd11px {border-width: 11px;}
+.bd12px {border-width: 12px;}
+.bd13px {border-width: 13px;}
+.bd14px {border-width: 14px;}
+.bd15px {border-width: 15px;}
+.bd16px {border-width: 16px;}
+.bd17px {border-width: 17px;}
+.bd18px {border-width: 18px;}
+.bd19px {border-width: 19px;}
+.bd20px {border-width: 20px;}
+
+/*radius*/
+.radius0{-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;}
+.radius0f , .radius0f > *{-moz-border-radius:0!important;-webkit-border-radius:0!important;border-radius:0!important;}
+.radius50{ -moz-border-radius:50%; -webkit-border-radius:50%; border-radius:50%; }
+.radiusl0 {
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.radiusr0 {
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.radiust0 {
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.radiusb0 {
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.radius1px{ -moz-border-radius:1px; -webkit-border-radius:1px; border-radius:1px;}
+.radius2px{ -moz-border-radius:2px; -webkit-border-radius:2px; border-radius:2px;}
+.radius3px{ -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+.radius4px{ -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;}
+.radius5px{ -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+.radius6px{ -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px;}
+.radius7px{ -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px;}
+.radius8px{ -moz-border-radius:8px; -webkit-border-radius:8px; border-radius:8px;}
+.radius9px{ -moz-border-radius:9px; -webkit-border-radius:9px; border-radius:9px;}
+.radius10px{ -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;}
+.radius11px{ -moz-border-radius:11px; -webkit-border-radius:11px; border-radius:11px;}
+.radius12px{ -moz-border-radius:12px; -webkit-border-radius:12px; border-radius:12px;}
+.radius13px{ -moz-border-radius:13px; -webkit-border-radius:13px; border-radius:13px;}
+.radius14px{ -moz-border-radius:14px; -webkit-border-radius:14px; border-radius:14px;}
+.radius15px{ -moz-border-radius:15px; -webkit-border-radius:15px; border-radius:15px;}
+.radius16px{ -moz-border-radius:16px; -webkit-border-radius:16px; border-radius:16px;}
+.radius17px{ -moz-border-radius:17px; -webkit-border-radius:17px; border-radius:17px;}
+.radius18px{ -moz-border-radius:18px; -webkit-border-radius:18px; border-radius:18px;}
+.radius19px{ -moz-border-radius:19px; -webkit-border-radius:19px; border-radius:19px;}
+.radius20px{ -moz-border-radius:20px; -webkit-border-radius:20px; border-radius:20px;}
+
