@@ -6,16 +6,32 @@
 .vertical-top, .top {vertical-align: top;}
 .vertical-middle, .middle {vertical-align: middle;}
 .vertical-bottom, .bottom {vertical-align: bottom;}
-.block-center{display: block; margin-left: auto; margin-right: auto;}
+.block-center {display: block; margin-left: auto; margin-right: auto;}
+
 @media (min-width: 768px) {
     .align-left-sm , .left-sm {text-align: left;}
+    .align-center-sm , .center-sm {text-align: center;}
     .align-right-sm , .right-sm {text-align: right;}
+    .vertical-top-sm, .top-sm {vertical-align: top;}
+	.vertical-middle-sm, .middle-sm {vertical-align: middle;}
+	.vertical-bottom-sm, .bottom-sm {vertical-align: bottom;}
+	.block-center-sm {display: block; margin-left: auto; margin-right: auto;}
 }
 @media (min-width: 992px) {
     .align-left-md , .left-md {text-align: left;}
+    .align-center-md , .center-md {text-align: center;}
     .align-right-md , .right-md {text-align: right;}
+    .vertical-top-md, .top-md {vertical-align: top;}
+	.vertical-middle-md, .middle-md {vertical-align: middle;}
+	.vertical-bottom-md, .bottom-md {vertical-align: bottom;}
+	.block-center-md {display: block; margin-left: auto; margin-right: auto;}
 }
 @media (min-width: 1200px) {
     .align-left-lg , .left-lg {text-align: left;}
+    .align-center-lg , .center-lg {text-align: center;}
     .align-right-lg , .right-lg {text-align: right;}
+    .vertical-top-lg, .top-lg {vertical-align: top;}
+	.vertical-middle-lg, .middle-lg {vertical-align: middle;}
+	.vertical-bottom-lg, .bottom-lg {vertical-align: bottom;}
+	.block-center-lg {display: block; margin-left: auto; margin-right: auto;}
 }

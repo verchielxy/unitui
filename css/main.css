@@ -25,13 +25,12 @@
 .t20px{top:20px;} .l20px{left:20px;} .r20px{right:20px;} .b20px{bottom:20px;}
 
 /*display*/
-.display-inline{display: inline;}
-.display-block{display: block}
-.display-inlineblock{display: inline-block;*display: inline;vertical-align: middle;*zoom: 1;}
-.display-table{display: table;}
-.display-tablerow{display: table-row;}
-.display-tablecell{display: table-cell;vertical-align: middle;*display: inline-block;*width: auto;*zoom: 1;}
-.display-inlineblock-box{word-spacing:-1em;}
+.display-inline, .d-i{display: inline;}
+.display-block, .d-b{display: block}
+.display-inlineblock, .d-ib{display: inline-block;*display: inline;*zoom: 1;}
+.display-table, .d-t{display: table;}
+.display-tablerow, .d-tw{display: table-row;}
+.display-tablecell, .d-tc{display: table-cell;vertical-align: middle;*display: inline-block;*width: auto;*zoom: 1;}
 
 /*show or hidden*/
 .visible{visibility:visible;}
@@ -39,14 +38,23 @@
 .softhide{display: none;}
 
 /*opacity*/
-.opacity0{opacity: 0}
-.opacity1{opacity: 1}
+.opacity0{opacity: 0;}
+.opacity01{opacity: 0.1;}
+.opacity02{opacity: 0.2;}
+.opacity03{opacity: 0.3;}
+.opacity04{opacity: 0.4;}
+.opacity05{opacity: 0.5;}
+.opacity06{opacity: 0.6;}
+.opacity07{opacity: 0.7;}
+.opacity08{opacity: 0.8;}
+.opacity09{opacity: 0.9;}
+.opacity1{opacity: 1;}
 .opacity-ani{transition: opacity 0.8s;}
 
 /*overflow*/
-.overflow-hidden{overflow: hidden}
-.overflow-scroll{overflow: scroll}
-.overflow-auto{overflow: auto}
+.overflow-hidden{overflow: hidden;}
+.overflow-scroll{overflow: scroll;}
+.overflow-auto{overflow: auto;}
 
 /*hover*/
 .myhover .myoverlay{display:none;}
@@ -191,6 +199,16 @@ ul.fixspace-ul{font-size: 0;}
 ul.fixspace-ul li{font-size: 14px;}
 
 /*width*/
+.width1{width: 100%;}
+.width2{width: 50%;}
+.width3{width: 33.33%;}
+.width4{width: 25%;}
+.width5{width: 20%;}
+.width6{width: 16.66%;}
+.width7{width: 14.28%;}
+.width8{width: 12.5%;}
+.width9{width: 11.11%;}
+.width10{width: 10%;}
 @media (min-width: 768px) {
     .width1-sm{width: 100%;}
     .width2-sm{width: 50%;}
@@ -227,16 +245,6 @@ ul.fixspace-ul li{font-size: 14px;}
     .width9-lg{width: 11.11%;}
     .width10-lg{width: 10%;}
 }
-.width1{width: 100%;}
-.width2{width: 50%;}
-.width3{width: 33.33%;}
-.width4{width: 25%;}
-.width5{width: 20%;}
-.width6{width: 16.66%;}
-.width7{width: 14.28%;}
-.width8{width: 12.5%;}
-.width9{width: 11.11%;}
-.width10{width: 10%;}
 
 /*custom tags*/
 codearea {

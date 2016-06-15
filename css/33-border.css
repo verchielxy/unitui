@@ -6,6 +6,7 @@
 /*border*/
 .bd-solid {border-style: solid;}
 .bd-dotted {border-style: dotted;}
+.bd-dashed {border-style: dashed;}
 .bd-top {border-top-style: solid;}
 .bd-bottom {border-bottom-style: solid;}
 .bd-left {border-left-style: solid;}
@@ -14,6 +15,10 @@
 .bd-bottom-dotted {border-bottom-style: dotted;}
 .bd-left-dotted {border-left-style: dotted;}
 .bd-right-dotted {border-right-style: dotted;}
+.bd-top-dashed {border-top-style: dashed;}
+.bd-bottom-dashed {border-bottom-style: dashed;}
+.bd-left-dashed {border-left-style: dashed;}
+.bd-right-dashed {border-right-style: dashed;}
 .bd {border:solid 1px #eeeeee;}
 
 .bd1px {border-width: 1px;}
