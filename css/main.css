@@ -256,19 +256,28 @@ codearea {
     border-radius: 2px;
     margin-bottom: 10px;
 }
-codearea line{
+codearea line, codearea edit{
     display: block;
     margin-bottom: 5px;
     line-height: 150%;
-    white-space: pre;
     word-spacing:0.5em;
 }
-codearea line:last-child{
+codearea line:last-child, codearea edit:last-child{
     margin-bottom: 0px;
+}
+codearea line{
+    color:#ffffff;
 }
 codearea line::before{
     padding-right: 10px;
     content: '#';
+}
+codearea edit{
+    color:#ffcc66;
+}
+codearea edit::before{
+    padding-right: 10px;
+    content: "\270f";
 }
 codearea cs{
     margin-left: 10px;
@@ -285,16 +294,7 @@ codearea linet:first-child{
     margin-top: 0;
 }
 codearea pre{
-    display: block;
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 12px;
-    line-height: 1.42857143;
-    color: #788188;
-    word-break: break-all;
-    word-wrap: break-word;
-    background-color: #f2f4f8;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 2px;
 }
 

@@ -3,7 +3,7 @@
     padding: 6px 12px;
     margin-bottom: 0;
     font-size: 14px;
-    font-weight: normal;
+    font-weight: 500;
     line-height: 1.42857143;
     text-align: center;
     white-space: nowrap;
@@ -18,13 +18,8 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 2px;
-    -webkit-box-shadow:0 1px 2px rgba(90, 90, 90, 0.1);
     box-shadow:0 1px 2px rgba(90, 90, 90, 0.1);
-}
-.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
-    outline: thin dotted #333;
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px;
+    -webkit-box-shadow:0 1px 2px rgba(90, 90, 90, 0.1);
 }
 .btn:hover, .btn:focus, .btn.focus {
     color: #333333;
