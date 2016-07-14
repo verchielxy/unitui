@@ -1,0 +1,112 @@
+.timeline{
+	display:block;
+	width:100%;
+}
+.timeline .innner{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+}
+.timeline:nth-child(odd) .innner{
+	justify-content: flex-start;
+}
+.timeline:nth-child(even) .innner{
+	justify-content: flex-end;
+}
+.timeline .content-box{
+	padding: 20px 0 40px;
+	width: calc(50% - 45px);
+	order: 1;
+}
+.timeline:nth-child(odd) .content-box{
+	text-align: right;
+}
+.timeline:nth-child(even) .content-box{
+	text-align: left;
+}
+.timeline .content{
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	padding: 10px;
+}
+.timeline:nth-child(odd) .content{
+	margin: 0 15px 0 0;
+}
+.timeline:nth-child(even) .content{
+	margin: 0 0 0 15px;
+}
+.timeline .content:before{
+	content: '';
+	position: absolute;
+	top: 35px;
+	height: 0; width: 0;
+	border-color: #ffffff;
+	border-top-color: transparent!important;
+	border-bottom-color: transparent!important;
+	border-style: solid;
+}
+.timeline:nth-child(odd) .content:before{
+	right: 0;
+	border-width: 10px 0 10px 10px;
+	margin: 0 -10px 0 0;
+}
+.timeline:nth-child(even) .content:before{
+	left: 0;
+	border-width: 10px 10px 10px 0;
+	margin: 0 0 0 -10px;
+}
+.timeline .icon-box{
+	position: relative;
+	padding: 20px 0 40px;
+}
+.timeline:nth-child(odd) .icon-box{
+	order: 2;
+}
+.timeline:nth-child(even) .icon-box{
+	order: 0;
+}
+.timeline .icon-box:before{
+	content: '';
+	position: absolute;
+	z-index: 1;
+	top: 0; left: 50%;
+	height: 100%; width: 4px;
+	margin-right: -2px;
+	background-color: #ffffff;
+}
+.timeline .icon-box i.fa{
+	position: relative;
+	z-index: 2;
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	line-height: 80px;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 2.4em;
+	border-color: #ffffff;
+	border-width: 5px;
+	border-style: solid;
+}
+
+@media (max-width: 768px) {
+	.timeline .content-box{
+		width: 100%;
+	}
+	.timeline:nth-child(even) .innner{
+		justify-content: flex-start;
+	}
+	.timeline:nth-child(odd) .content{
+		margin: 0 0 0 15px;
+	}
+	.timeline:nth-child(odd) .icon-box{
+		order: 0;
+	}
+	.timeline:nth-child(odd) .content:before{
+		left: 0;
+		border-width: 10px 10px 10px 0;
+		margin: 0 0 0 -10px;
+	}
+}

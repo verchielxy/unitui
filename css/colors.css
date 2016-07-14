@@ -38,78 +38,81 @@
 
 
 /*font color*/
-.c-primary, .c-primary a, a.c-primary {color: #545CA6;}
+ 
+.c-primary, a.c-primary {color: #545CA6;}
 .cf-primary, .ch-primary:hover {color: #545CA6!important;}
-.c-success, .c-success a, a.c-success {color: #8ec165;}
+.c-success, a.c-success {color: #8ec165;}
 .cf-success, .ch-success:hover {color: #8ec165!important;}
-.c-info, .c-info a, a.c-info {color: #4cc0c1;}
+.c-info, a.c-info {color: #4cc0c1;}
 .cf-info, .ch-info:hover {color: #4cc0c1!important;}
-.c-warning, .c-warning a, a.c-warning {color: #ffc333;}
+.c-warning, a.c-warning {color: #ffc333;}
 .cf-warning, .ch-warning:hover {color: #ffc333!important;}
-.c-danger, .c-danger a, a.c-danger {color: #fb6b5b;}
+.c-danger, a.c-danger {color: #fb6b5b;}
 .cf-danger, .ch-danger:hover {color: #fb6b5b!important;}
-.c-scarlet, .c-scarlet a, a.c-scarlet {color: #CC3333;}
+.c-scarlet, a.c-scarlet {color: #CC3333;}
 .cf-scarlet, .ch-scarlet:hover {color: #CC3333!important;}
-.c-red, .c-red a, a.c-red {color: #f16653;}
+.c-red, a.c-red {color: #f16653;}
 .cf-red, .ch-red:hover {color: #f16653!important;}
-.c-rose, .c-rose a, a.c-rose {color: #FF599F;}
+.c-rose, a.c-rose {color: #FF599F;}
 .cf-rose, .ch-rose:hover {color: #FF599F!important;}
-.c-jacinth, .c-jacinth a, a.c-jacinth {color: #EE513E;}
+.c-jacinth, a.c-jacinth {color: #EE513E;}
 .cf-jacinth, .ch-jacinth:hover {color: #EE513E!important;}
-.c-pink, .c-pink a, a.c-pink {color: #FF8392;}
+.c-pink, a.c-pink {color: #FF8392;}
 .cf-pink, .ch-pink:hover {color: #FF8392!important;}
-.c-orange, .c-orange a, a.c-orange {color: #FF8B24;}
+.c-orange, a.c-orange {color: #FF8B24;}
 .cf-orange, .ch-orange:hover {color: #FF8B24!important;}
-.c-yellow, .c-yellow a, a.c-yellow {color: #FFCC66;}
+.c-yellow, a.c-yellow {color: #FFCC66;}
 .cf-yellow, .ch-yellow:hover {color: #FFCC66!important;}
-.c-almond, .c-almond a, a.c-almond {color: #f5bd34;}
+.c-almond, a.c-almond {color: #f5bd34;}
 .cf-almond, .ch-almond:hover {color: #f5bd34!important;}
-.c-brown, .c-brown a, a.c-brown {color: #8C471E;}
+.c-brown, a.c-brown {color: #8C471E;}
 .cf-brown, .ch-brown:hover {color: #8C471E!important;}
-.c-olive, .c-olive a, a.c-olive {color: #3d9970;}
+.c-olive, a.c-olive {color: #3d9970;}
 .cf-olive, .ch-olive:hover {color: #3d9970!important;}
-.c-viridity, .c-viridity a, a.c-viridity {color: #34D574;}
+.c-viridity, a.c-viridity {color: #34D574;}
 .cf-viridity, .ch-viridity:hover {color: #34D574!important;}
-.c-green, .c-green a, a.c-green {color: #4bc57d;}
+.c-green, a.c-green {color: #4bc57d;}
 .cf-green, .ch-green:hover {color: #4bc57d!important;}
-.c-aqua, .c-aqua a, a.c-aqua {color: #99FF99;}
+.c-aqua, a.c-aqua {color: #99FF99;}
 .cf-aqua, .ch-aqua:hover {color: #99FF99!important;}
-.c-cyan, .c-cyan a, a.c-cyan {color: #A8FFE5;}
+.c-cyan, a.c-cyan {color: #A8FFE5;}
 .cf-cyan, .ch-cyan:hover {color: #A8FFE5!important;}
-.c-navy, .c-navy a, a.c-navy {color: #3A4D5C;}
+.c-navy, a.c-navy {color: #3A4D5C;}
 .cf-navy, .ch-navy:hover {color: #3A4D5C!important;}
-.c-blue, .c-blue a, a.c-blue {color: #4B96E0;}
+.c-blue, a.c-blue {color: #4B96E0;}
 .cf-blue, .ch-blue:hover {color: #4B96E0!important;}
-.c-indigo, .c-indigo a, a.c-indigo {color: #418D8C;}
+.c-indigo, a.c-indigo {color: #418D8C;}
 .cf-indigo, .ch-indigo:hover {color: #418D8C!important;}
-.c-deongaree, .c-deongaree a, a.c-deongaree {color: #336699;}
+.c-deongaree, a.c-deongaree {color: #336699;}
 .cf-deongaree, .ch-deongaree:hover {color: #336699!important;}
-.c-ocean, .c-ocean a, a.c-ocean {color: #66CCCC;}
+.c-ocean, a.c-ocean {color: #66CCCC;}
 .cf-ocean, .ch-ocean:hover {color: #66CCCC!important;}
-.c-azure, .c-azure a, a.c-azure {color: #6ACBEC;}
+.c-azure, a.c-azure {color: #6ACBEC;}
 .cf-azure, .ch-azure:hover {color: #6ACBEC!important;}
-.c-salmon, .c-salmon a, a.c-salmon {color: #F08080;}
+.c-salmon, a.c-salmon {color: #F08080;}
 .cf-salmon, .ch-salmon:hover {color: #F08080!important;}
-.c-neon, .c-neon a, a.c-neon {color: #EA5AB2;}
+.c-neon, a.c-neon {color: #EA5AB2;}
 .cf-neon, .ch-neon:hover {color: #EA5AB2!important;}
-.c-purple, .c-purple a, a.c-purple {color: #B94EB3;}
+.c-purple, a.c-purple {color: #B94EB3;}
 .cf-purple, .ch-purple:hover {color: #B94EB3!important;}
-.c-lavender, .c-lavender a, a.c-lavender {color: #9582C6;}
+.c-lavender, a.c-lavender {color: #9582C6;}
 .cf-lavender, .ch-lavender:hover {color: #9582C6!important;}
-.c-lgray, .c-lgray a, a.c-lgray {color: #EAEAEA;}
+.c-lgray, a.c-lgray {color: #EAEAEA;}
 .cf-lgray, .ch-lgray:hover {color: #EAEAEA!important;}
-.c-gray, .c-gray a, a.c-gray {color: #CCCCCC;}
+.c-gray, a.c-gray {color: #CCCCCC;}
 .cf-gray, .ch-gray:hover {color: #CCCCCC!important;}
-.c-dgray, .c-dgray a, a.c-dgray {color: #B3B3B3;}
+.c-dgray, a.c-dgray {color: #B3B3B3;}
 .cf-dgray, .ch-dgray:hover {color: #B3B3B3!important;}
-.c-dark, .c-dark a, a.c-dark {color: #5a6a7a;}
+.c-dark, a.c-dark {color: #5a6a7a;}
 .cf-dark, .ch-dark:hover {color: #5a6a7a!important;}
-.c-iron, .c-iron a, a.c-iron {color: #404040;}
+.c-iron, a.c-iron {color: #404040;}
 .cf-iron, .ch-iron:hover {color: #404040!important;}
-.c-black, .c-black a, a.c-black {color: #222222;}
+.c-black, a.c-black {color: #222222;}
 .cf-black, .ch-black:hover {color: #222222!important;}
-.c-white, .c-white a, a.c-white {color: #ffffff;}
+.c-white, a.c-white {color: #ffffff;}
 .cf-white, .ch-white:hover {color: #ffffff!important;}
+.c-666, a.c-666 {color: #666666;}
+.cf-666, .ch-666:hover {color: #666666!important;}
 
 
 /*button color*/

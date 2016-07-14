@@ -25,12 +25,13 @@
 .t20px{top:20px;} .l20px{left:20px;} .r20px{right:20px;} .b20px{bottom:20px;}
 
 /*display*/
-.display-inline, .d-i{display: inline;}
-.display-block, .d-b{display: block}
-.display-inlineblock, .d-ib{display: inline-block;*display: inline;*zoom: 1;}
-.display-table, .d-t{display: table;}
-.display-tablerow, .d-tw{display: table-row;}
-.display-tablecell, .d-tc{display: table-cell;vertical-align: middle;*display: inline-block;*width: auto;*zoom: 1;}
+.display-inline, .di{display: inline;}
+.display-block, .db{display: block;}
+.display-inlineblock, .dib{display: inline-block; *display: inline; *zoom: 1;}
+.display-table, .dt{display: table;}
+.display-tablerow, .dtw{display: table-row;}
+.display-tablecell, .dtc{display: table-cell; vertical-align: middle; *display: inline-block; *width: auto; *zoom: 1;}
+.display-flex, .df{display:flex;}
 
 /*show or hidden*/
 .visible{visibility:visible;}
